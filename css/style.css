@@ -243,28 +243,24 @@ a:focus {
 }
 
 .slider_section .carousel-item {
-  padding: 25px 25px 50px 25px; /* Збільшуємо нижній відступ, щоб текст не притискався до кнопок */
+  padding: 25px 25px 50px 25px; /
   border-radius: 0 0 15px 15px;
   transition: background 0.5s ease;
   position: relative;
 }
 
-/* 1. Перший слайд */
 .slider_section .carousel-item.slide-crystal {
   background-color: #340B71;
 }
 
-/* 2. Другий слайд */
 .slider_section .carousel-item.slide-winter {
   background: linear-gradient(135deg, #1b365d 0%, #2c5282 100%);
 }
 
-/* 3. Третій слайд */
 .slider_section .carousel-item.slide-set {
   background: linear-gradient(135deg, #5e284f 0%, #86295c 100%);
 }
 
-/* Панель зі стрілками навігації — акуратно всередині внизу банера */
 .slider_section .carousel_btn-box {
   display: -webkit-box;
   display: -ms-flexbox;
